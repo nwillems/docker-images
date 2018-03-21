@@ -1,0 +1,3 @@
+language: r
+script:
+    - ./fortune/build.sh
