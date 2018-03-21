@@ -3,4 +3,4 @@ sudo: required
 services:
     - docker
 script:
-    - ./fortune/build.sh
+    - cd fortune && ./build.sh
