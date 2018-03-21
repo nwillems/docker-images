@@ -1,3 +1,6 @@
-language: r
+language: ruby
+sudo: required
+services:
+    - docker
 script:
     - ./fortune/build.sh
